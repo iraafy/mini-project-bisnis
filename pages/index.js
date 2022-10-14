@@ -2,10 +2,28 @@ import Berita from "../components/Berita"
 import Footer from "../components/Footer"
 import Foto from "../components/foto"
 import Infografis from "../components/Infografis"
+import { useTheme } from "next-themes"
+import { useState, useEffect } from "react"
 
 export default function Home() {
+  const [mounted, setMounted] = useState(false)
+  const {theme, setTheme} = useTheme()
+  useEffect(()=> setMounted(true), [])
+  if(!mounted) return null
   return (
     <>
+      <div>
+        <div className="relative inline-block w-10 mr-2 align-middle select-none ml-20 mt-5 my-5">
+          <input type="checkbox" className="checked:bg-white outline-none focus:outline-none right-4 
+          checked:right-0 duration-200 ease-in absolute block w-6 h-6 rounded-full 
+          bg-gray-500 border-4 appearance-none cursor-pointer"
+          onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+          />
+          <label className="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer">
+          </label>
+        </div>
+        {theme === 'light' ? 'Light' : 'Dark'}
+      </div>
       <div className="container mx-auto px-5 lg:px-20">
         < Foto/>
         <h2 className="text-blue-700 pt-8 font-bold text-2xl">
