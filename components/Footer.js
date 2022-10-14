@@ -37,7 +37,7 @@ export default function Footer() {
                         <div className="w-full lg:w-fit">
                             HypeAbis.id
                         </div>
-                        <div className="w-full lg:w-fit lg:w-fit">
+                        <div className="w-full lg:w-fit">
                             Context.id
                         </div>
                         <div className="w-full lg:w-fit">
