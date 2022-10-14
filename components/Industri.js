@@ -28,7 +28,52 @@ export default function Industri(){
                     28 Juli 2022 | Nindya Aldila
                 </p>
             </div>
-            
+            <div className="p-0 m-0 grid sm:grid-cols-1 lg:grid-cols-3 gap-3">
+                <div className="container">
+                    <img className="w-full" src="/images/j-pict-4.jpg" alt="Foto 4"/>
+                </div>
+                <div className="container">
+                    <h1 className="text-blue-500 font-bold pt-0 pb-1 text-lg">
+                        INDUSTRI
+                    </h1>            
+                    <h1 className="text-black text-lg">
+                        Didesak china, RI Pikul Beban Biaya Proyek Kereta Cepat.
+                    </h1>
+                    <p className="text-sm pt-2">
+                        28 Juli 2022 | Rayful Mansyur
+                    </p>
+                </div>
+                <hr></hr>
+                <div className="container">
+                    <img className="w-full" src="/images/j-pict-5.jpg" alt="Foto 5"/>
+                </div>
+                <div className="container">
+                    <h1 className="text-blue-500 font-bold pt-0 pb-1 text-lg">
+                        INDUSTRI
+                    </h1>            
+                    <h1 className="text-black text-lg">
+                        Didesak china, RI Pikul Beban Biaya Proyek Kereta Cepat.
+                    </h1>
+                    <p className="text-sm pt-2">
+                        28 Juli 2022 | Rayful Mansyur
+                    </p>
+                </div>
+                <hr></hr>
+                <div className="container">
+                    <img className="w-full" src="/images/j-pict-6.jpg" alt="Foto 6"/>
+                </div>
+                <div className="container">
+                    <h1 className="text-blue-500 font-bold pt-0 pb-1 text-lg">
+                        INDUSTRI
+                    </h1>            
+                    <h1 className="text-black text-lg">
+                        Didesak china, RI Pikul Beban Biaya Proyek Kereta Cepat.
+                    </h1>
+                    <p className="text-sm pt-2">
+                        28 Juli 2022 | Rayful Mansyur
+                    </p>
+                </div>
+            </div>
         </div>
       )
 }
