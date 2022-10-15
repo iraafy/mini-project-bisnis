@@ -1,4 +1,4 @@
-export default function Foto() {
+export default function Isi() {
     return (
     <>
     <div className="container mx-auto w-full lg:w-5/6">
