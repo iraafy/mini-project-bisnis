@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import Isi from "../components/Isi"
 import Berita from "../components/Berita"
 import Footer from "../components/Footer"
 import Foto from "../components/foto"
@@ -38,6 +39,9 @@ export default function Home() {
       <div className="container mx-auto w-full lg:w-5/6">
         <div className="border-b-2 border-black dark:border-white"/>
       </div>
+        <div className="mx-20 flex flex-wrap justify-center py-16">
+          <img src="images/iklan1.png" alt="iklan" width={'1050px'}/>
+        </div>
       <div className="container mx-auto px-5 lg:px-20">
         < Terpopuler/>
         < Industri/>
