@@ -1,3 +1,4 @@
+import Header from "../components/Header"
 import Berita from "../components/Berita"
 import Footer from "../components/Footer"
 import Foto from "../components/foto"
@@ -14,17 +15,28 @@ export default function Home() {
   if(!mounted) return null
   return (
     <>
-      <div>
-        <div className="relative inline-block w-10 mr-2 align-middle select-none ml-20 mt-5 my-5">
-          <input type="checkbox" className="checked:bg-white outline-none focus:outline-none right-4 
-          checked:right-0 duration-200 ease-in absolute block w-6 h-6 rounded-full 
-          bg-gray-500 border-4 appearance-none cursor-pointer"
-          onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-          />
-          <label className="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer">
-          </label>
+      <div className="bg-blue-900 h-20">
+        <div className="container lg:px-24">
+          <div className="mx-20 flex flex-wrap">
+            <div className="text-white text-2xl p-3 text-right">
+              <div className="relative inline-block w-10 mr-2 align-middle select-noneml-20 mt-5 my-5">
+                <input type="checkbox" className="checked:bg-white outline-none focus:outline-none right-4 
+                checked:right-0 duration-200 ease-in absolute block w-6 h-6 rounded-full 
+                bg-gray-500 border-4 appearance-none cursor-pointer"
+                onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+                />
+                <label className="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer">
+
+                </label>
+                </div>
+                {theme === 'light' ? 'Light' : 'Dark'} Mode
+            </div>
+          </div>
         </div>
-        {theme === 'light' ? 'Light' : 'Dark'}
+      </div>
+      <Header />
+      <div className="container mx-auto w-full lg:w-5/6">
+        <div className="border-b-2 border-black dark:border-white"/>
       </div>
       <div className="container mx-auto px-5 lg:px-20">
         < Terpopuler/>
