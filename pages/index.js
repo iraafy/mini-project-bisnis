@@ -8,6 +8,9 @@ import Foto from "../components/foto"
 import Infografis from "../components/Infografis"
 import Terpopuler from "../components/Terpopuler"
 import Industri from "../components/Industri"
+import Opini from "../components/Opini"
+import Video from "../components/Video"
+import Audio from "../components/Audio"
 import { useTheme } from "next-themes"
 import { useState, useEffect } from "react"
 
@@ -58,10 +61,39 @@ export default function Home() {
       <Artikel />
       <Ekonomi />
       <div className="container mx-auto px-5 lg:px-20">
-        < Terpopuler/>
-        < Industri/>
+      < Terpopuler/>
+        <div className="mx-8 flex flex-wrap justify-center py-10">
+          <img src="images/j-pict-2.jpg" alt="iklan" width={'1050px'}/>
+        </div>
+        
         <h2 className="text-blue-700 pt-8 font-bold text-2xl">
           INDUSTRI
+        </h2>
+        < Industri/>
+        <div className="container mx-auto w-full lg:w-6/6">
+            <div className="border-b-2 border-black dark:border-white"/>
+        </div>
+
+        < Opini/>
+        <div className="container mx-auto w-full lg:w-6/6">
+            <div className="border-b-2 border-indigo-500 dark:border-white"/>
+        </div>
+        <div className="mx-8 flex flex-wrap justify-center py-8 pb-3">
+          <img src="images/j-pict-8.jpeg" alt="iklan" width={'1050px'}/>
+        </div>
+
+        <h2 className="text-blue-700 pt-8 font-bold text-2xl">
+          VIDEO
+        </h2>
+        < Video/>
+
+        <h2 className="text-blue-700 pt-8 font-bold text-2xl">
+          AUDIO
+        </h2>
+        < Audio/>
+
+        <h2 className="text-blue-700 pt-8 font-bold text-2xl">
+          FOTO
         </h2>
         < Foto/>
         <h2 className="text-blue-700 pt-8 font-bold text-2xl">
