@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import Isi from "../components/Isi"
 import Artikel from "../components/Artikel"
+import Ekonomi from "../components/Ekonomi"
 import Berita from "../components/Berita"
 import Footer from "../components/Footer"
 import Foto from "../components/foto"
@@ -55,6 +56,7 @@ export default function Home() {
         <div className="border-b-4 border-gray-500 dark:border-white"/>
       </div>
       <Artikel />
+      <Ekonomi />
       <div className="container mx-auto px-5 lg:px-20">
         < Terpopuler/>
         < Industri/>
