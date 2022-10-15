@@ -44,6 +44,16 @@ export default function Home() {
         <img src="images/iklan1.png" alt="iklan" width={'1050px'}/>
       </div>
       <Isi />
+      <div className="container pt-7 mx-auto w-full lg:w-5/6">
+        <div className="border-b-2 border-blue-900"/>
+        <div className="border-b-8 pt-3 border-blue-900"/>
+      </div>
+      <h1 className="container mx-auto lg:w-5/6 text-blue-700 pt-8 font-bold text-3xl">
+        ARTIKEL TERBARU
+      </h1>
+      <div className="container pt-7 mx-auto w-full lg:w-5/6">
+        <div className="border-b-4 border-gray-500 dark:border-white"/>
+      </div>
       <Artikel />
       <div className="container mx-auto px-5 lg:px-20">
         < Terpopuler/>

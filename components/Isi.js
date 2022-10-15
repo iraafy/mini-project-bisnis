@@ -5,7 +5,7 @@ export default function Isi() {
         <h2 className="text-blue-700 pt-8 font-bold text-2xl">
             EKONOMI
         </h2>
-        <div className="p-0  m-0px-8 grid sm:grid-cols-1 lg:grid-cols-2">
+        <div className="p-0  m-0px-8 grid lg:grid-cols-2">
             <div className="container pr-10">
                 <h1 className="pt-4 font-bold text-5xl">
                     Sikap The Fed dan IMF jadi<br />Sinyal Beruntun Resesi Global
