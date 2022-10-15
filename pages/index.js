@@ -19,11 +19,11 @@ export default function Home() {
   return (
     <>
       <div className="bg-blue-900 h-20">
-        <div className="container lg:px-24">
+        <div className="container mx-auto w-full lg:w-5/6">
           <div className="mx-20 flex flex-wrap">
-            <div className="text-white text-2xl p-3 text-right">
+            <div className="text-white text-xl p-3 text-right">
               <div className="relative inline-block w-10 mr-2 align-middle select-noneml-20 mt-5 my-5">
-                <input type="checkbox" className="checked:bg-white outline-none focus:outline-none right-4 
+              <input type="checkbox" className="checked:bg-white outline-none focus:outline-none right-4 
                 checked:right-0 duration-200 ease-in absolute block w-6 h-6 rounded-full 
                 bg-gray-500 border-4 appearance-none cursor-pointer"
                 onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
@@ -31,8 +31,8 @@ export default function Home() {
                 <label className="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer">
 
                 </label>
-                </div>
-                {theme === 'light' ? 'Light' : 'Dark'} Mode
+              </div>
+              {theme === 'light' ? 'Light' : 'Dark'} Mode
             </div>
           </div>
         </div>
@@ -41,15 +41,15 @@ export default function Home() {
       <div className="container mx-auto w-full lg:w-5/6">
         <div className="border-b-2 border-black dark:border-white"/>
       </div>
-      <div className="mx-20 flex flex-wrap justify-center py-16">
-        <img src="images/iklan1.png" alt="iklan" width={'1050px'}/>
+      <div className="mx-20 flex flex-wrap justify-center py-10">
+        <img src="images/iklan1.png" alt="iklan" width={'750px'}/>
       </div>
       <Isi />
       <div className="container pt-7 mx-auto w-full lg:w-5/6">
         <div className="border-b-2 border-blue-900"/>
         <div className="border-b-8 pt-3 border-blue-900"/>
       </div>
-      <h1 className="container mx-auto lg:w-5/6 text-blue-700 pt-8 font-bold text-3xl">
+      <h1 className="container mx-auto lg:w-5/6 text-blue-700 pt-8 font-bold text-2xl">
         ARTIKEL TERBARU
       </h1>
       <div className="container pt-7 mx-auto w-full lg:w-5/6">

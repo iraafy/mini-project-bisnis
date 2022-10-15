@@ -1,22 +1,22 @@
 export default function Artikel() {
     return (
     <>
-        <div className="container py-7 mx-auto w-full lg:w-5/6">
+        <div className="container py-6 mx-auto w-full lg:w-5/6">
             <div className="flex flex-wrap">
                 <div className="w-3/5 ">
                     <div className="container pr-20">
-                        <h1 className="text-blue-700 font-bold text-2xl">
+                        <h1 className="text-blue-700 font-bold text-xl">
                             PASAR
                         </h1>
-                        <h1 className="pt-4 font-bold text-4xl">
+                        <h1 className="pt-0 font-bold text-2xl">
                             Jejak Bisnis Digital Sinar Mas hingga Kongsi Alibaba
                         </h1>
-                        <p className="pt-10 text-2xl">
+                        <p className="pt-6 text-l">
                             Kolaborasi bisnis Grup Sinar Mas dan Grup Alibaba disinyalir semakin erat. 
                             Apalagi kedua konglomerant tersebut memiliki agenda yang sama untuk 
                             memperkuat bisnis digital di Indonesia.
                         </p>
-                        <p className="text-xl pt-7">
+                        <p className="text-l pt-6">
                             17 Agustus 2022 | Aaaaaaa Desi Kaaaaaaa
                         </p>
                     </div>            
