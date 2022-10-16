@@ -1,3 +1,4 @@
+
 export default function Audio(){
     return(
         <div className="p-0  m-0px-8 py-8 grid sm:grid-cols-1 lg:grid-cols-3 gap-4">
@@ -17,7 +18,7 @@ export default function Audio(){
                     INDUSTRI
                 </h2>
                 <h1 className="text-black font-bold pt-2 pb-2 text-xl">
-                    Badai PHK Startup, 'Winter is Coming' Kini Jadi Kenyataan
+                Badai PHK Startup, &#39;Winter is Coming&#39; Kini Jadi Kenyataan
                 </h1><br></br><br></br>
                 <p className=" text-black text-sm pt-2">
                     7 Juni 2022 | David Eka

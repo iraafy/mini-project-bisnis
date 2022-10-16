@@ -1,8 +1,9 @@
+import Image from "next/image"
 export default function Infografis() {
     return (
       <div className="p-0  m-0px-8 py-8 grid sm:grid-cols-1 lg:grid-cols-4 gap-5">
          <div className="container">
-            <img className="w-full" src="/images/i-pict-4.png" alt="Foto 4"/>
+            <Image className="w-full" src="/images/i-pict-4.png" alt="Foto 4"/>
             <h1 className="text-blue-700 font-bold pt-4 text-xl">
                 DATA & ANALISIS
             </h1>
@@ -14,7 +15,7 @@ export default function Infografis() {
             </p>
          </div>  
          <div className="container">
-            <img className="w-full" src="/images/i-pict-5.png" alt="Foto 5"/>
+            <Image className="w-full" src="/images/i-pict-5.png" alt="Foto 5"/>
             <h1 className="text-blue-700 font-bold pt-4 text-xl">
                 DATA & ANALISIS
             </h1>
@@ -26,7 +27,7 @@ export default function Infografis() {
             </p>
          </div>  
          <div className="container">
-            <img className="w-full" src="/images/i-pict-6.png" alt="Foto 6"/>
+            <Image className="w-full" src="/images/i-pict-6.png" alt="Foto 6"/>
             <h1 className="text-blue-700 font-bold pt-4 text-xl">
                 VARIA
             </h1>
@@ -38,7 +39,7 @@ export default function Infografis() {
             </p>
          </div>  
          <div className="container">
-            <img className="w-full" src="/images/i-pict-7.png" alt="Foto 7"/>
+            <Image className="w-full" src="/images/i-pict-7.png" alt="Foto 7"/>
             <h1 className="text-blue-700 font-bold pt-4 text-xl">
                 DATA & ANALISIS
             </h1>

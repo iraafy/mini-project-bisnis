@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Artikel() {
     return (
     <>
@@ -23,7 +24,7 @@ export default function Artikel() {
                 </div>
                 <div className="w-2/5 ml-auto">
                     <div className="container ">
-                        <img className="w-full" src="/images/i-pict-22.png" alt="Foto 22"/>
+                        <Image className="w-full" src="/images/i-pict-22.png" alt="Foto 22"/>
                     </div>            
                 </div>
 

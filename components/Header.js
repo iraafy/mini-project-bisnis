@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Header() {
     const current = new Date();
     const monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni","Juli", "Agustus", "September", "Oktober", "November", "Desember"];
@@ -29,7 +30,7 @@ export default function Header() {
                 </div>
                 <div className="w-full lg:w-1/3">
                     <div className="container justify-center p-4 bg-white">
-                        <img src="images/logo.png" alt="logo" width={'250px'} className="h-full w-full"/>
+                        <Image src="images/logo.png" alt="logo" width={'250px'} className="h-full w-full"/>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/3">

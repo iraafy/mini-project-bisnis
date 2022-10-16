@@ -1,8 +1,9 @@
+import Image from "next/image"
 export default function Industri(){
     return (
         <div className="p-0  m-0px-8 py-8 grid sm:grid-cols-1 lg:grid-cols-3 gap-4">
             <div className="container">
-                <img className="h-50 w-100" src="/images/j-pict-3.jpg" alt="Foto 1"/>
+                <Image className="h-50 w-100" src="/images/j-pict-3.jpg" alt="Foto 1"/>
                 <h2 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                     INDUSTRI
                 </h2>
@@ -30,7 +31,7 @@ export default function Industri(){
             </div>
             <div className="p-0 m-0 grid sm:grid-cols-1 lg:grid-cols-2 gap-3">
                 <div className="container">
-                    <img className="w-small" src="/images/j-pict-4.jpg" alt="Foto 4"/>
+                    <Image className="w-small" src="/images/j-pict-4.jpg" alt="Foto 4"/>
                 </div>
                 <div className="container">
                     <h1 className="text-blue-500 font-bold pt-0 pb-1 text-lg">
@@ -45,7 +46,7 @@ export default function Industri(){
                 </div>
                 
                 <div className="container">
-                    <img className="w-small" src="/images/j-pict-5.jpg" alt="Foto 5"/>
+                    <Image className="w-small" src="/images/j-pict-5.jpg" alt="Foto 5"/>
                 </div>
                 <div className="container">
                     <h1 className="text-blue-500 font-bold pt-0 pb-1 text-lg">
@@ -60,7 +61,7 @@ export default function Industri(){
                 </div>
   
                 <div className="container">
-                    <img className="w-small" src="/images/j-pict-6.jpg" alt="Foto 6"/>
+                    <Image className="w-small" src="/images/j-pict-6.jpg" alt="Foto 6"/>
                 </div>
                 <div className="container">
                     <h1 className="text-blue-500 font-bold pt-0 pb-1 text-lg">

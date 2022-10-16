@@ -1,12 +1,12 @@
 import React from 'react'
-
+import Image from "next/image"
 export default function Footer() {
   return (
     <div className="container mx-auto w-full">
         <div className=" flex flex-wrap">
             <div className="w-1/2 bg-white">
                 <div className="container py-5">
-                    <img src="images/logo.png" alt="logo" width={'150px'}/>
+                    <Image src="images/logo.png" alt="logo" width={'150px'}/>
                 </div>
             </div>
             <div className="w-1/2 bg-white">
@@ -176,12 +176,12 @@ export default function Footer() {
                             <div className=" flex flex-wrap gap-2">
                                 <div className="w-1/3">
                                     <a href='#'>
-                                        <img className="w-full" src="/images/gplay.png" />
+                                        <Image className="w-full" src="/images/gplay.png" alt="gplay"/>
                                     </a>
                                 </div>
                                 <div className="w-1/3">
                                     <a href='#'>
-                                        <img className="w-full" src="/images/appstr.png" />
+                                        <Image className="w-full" src="/images/appstr.png" alt="appstr" />
                                     </a>
                                 </div>
                             </div>

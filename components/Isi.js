@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Isi() {
     return (
     <>
@@ -22,11 +23,11 @@ export default function Isi() {
                 </p>
             </div>
             <div className="container w-1/2 pb-10">
-                <img className="h-full w-full" src="/images/i-pict-16.png" alt="Foto 16"/>
+                <Image className="h-full w-full" src="/images/i-pict-16.png" alt="Foto 16"/>
             </div>
             <div className="grid lg:grid-cols-6 gap-3 py-10">
                 <div className="container">
-                    <img className="w-full" src="/images/i-pict-17.png" alt="Foto 17"/>
+                    <Image className="w-full" src="/images/i-pict-17.png" alt="Foto 17"/>
                 </div>
                 <div>
                     <h2 className="text-blue-700 font-bold">
@@ -42,7 +43,7 @@ export default function Isi() {
                     </p>
                 </div>
                 <div className="container">
-                    <img className="w-full" src="/images/i-pict-18.png" alt="Foto 18"/>
+                    <Image className="w-full" src="/images/i-pict-18.png" alt="Foto 18"/>
                 </div>
                 <div>
                     <h2 className="text-blue-700 font-bold">
@@ -58,7 +59,7 @@ export default function Isi() {
                     </p>
                 </div>
                 <div className="container">
-                    <img className="w-full" src="/images/i-pict-19.png" alt="Foto 19"/>
+                    <Image className="w-full" src="/images/i-pict-19.png" alt="Foto 19"/>
                 </div>
                 <div>
                     <h2 className="text-blue-700 font-bold">
@@ -75,10 +76,10 @@ export default function Isi() {
                 </div>
             </div>
             <div className="container w-1/2 pr-5">
-                <img className="h-full w-full rounded-xl" src="/images/i-pict-20.png" alt="Foto 20"/>
+                <Image className="h-full w-full rounded-xl" src="/images/i-pict-20.png" alt="Foto 20"/>
             </div>
             <div className="container w-1/2 pl-5">
-                <img className="h-full w-full rounded-xl" src="/images/i-pict-21.png" alt="Foto 21"/>
+                <Image className="h-full w-full rounded-xl" src="/images/i-pict-21.png" alt="Foto 21"/>
             </div>
         </div>
     </div>

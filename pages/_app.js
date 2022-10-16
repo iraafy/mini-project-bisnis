@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider attribute='class'>
         <Component {...pageProps} />
       </ThemeProvider>
-      <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"/>
+      <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js" async/>
     </>
   )
 }
