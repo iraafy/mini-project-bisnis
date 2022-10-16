@@ -60,7 +60,7 @@ export default function Ekonomi() {
 
             <div className="grid lg:grid-cols-4 gap-3 py-10">
                 <div className="container">
-                    <Image className="w-full" src="/images/i-pict-23.png" alt="Foto 23"/>
+                    <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-23.png" alt="Foto 23"/>
                     <h1 className="text-blue-700 font-bold text-lg pt-4">
                         PASAR
                     </h1>
@@ -77,7 +77,7 @@ export default function Ekonomi() {
                     </p>
                 </div>
                 <div className="container">
-                    <Image className="w-full" src="/images/i-pict-24.png" alt="Foto 24"/>
+                    <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-24.png" alt="Foto 24"/>
                     <h1 className="text-blue-700 font-bold text-lg pt-4">
                         PASAR
                     </h1>
@@ -94,7 +94,7 @@ export default function Ekonomi() {
                     </p>
                 </div>
                 <div className="container border-2 border-red-500 border-dotted p-1">
-                    <Image className="w-full" src="/images/i-pict-25.png" alt="Foto 25"/>
+                    <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-25.png" alt="Foto 25"/>
                     <h1 className="text-blue-700 font-bold text-lg pt-4">
                         PASAR
                     </h1>
@@ -111,7 +111,7 @@ export default function Ekonomi() {
                     </p>
                 </div>
                 <div className="container">
-                    <Image className="w-full" src="/images/i-pict-26.png" alt="Foto 26"/>
+                    <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-26.png" alt="Foto 26"/>
                     <h1 className="text-blue-700 font-bold text-lg pt-4">
                         PASAR
                     </h1>

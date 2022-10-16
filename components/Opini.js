@@ -3,7 +3,7 @@ export default function Opini(){
     return(
         <div className="p-0  m-0px-8 py-8 grid sm:grid-cols-1 lg:grid-cols-3 gap-4">
             <div className="container">
-                <Image className="w-full" src="/images/j-pict-7.png" alt="Foto 7"/>
+                <Image width={'100%'} height={'100%'} className="w-full" src="/images/j-pict-7.png" alt="Foto 7"/>
             </div>
             <div className="container">
                 <h2 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
@@ -18,7 +18,7 @@ export default function Opini(){
                 </p><br></br>
                 <div className="m-0 px-0 pt-0 py-2 grid sm:grid-flow-col-dense">
                     <div className="container">
-                        <Image className="w-small" src="/images/j-pict-mini.png" alt="Foto mini"/>
+                        <Image width={'100%'} height={'100%'} className="w-small" src="/images/j-pict-mini.png" alt="Foto mini"/>
                     </div>
                     <div className="container">
                         <p className="text-sm pt-5 px-0">

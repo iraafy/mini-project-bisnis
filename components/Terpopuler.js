@@ -5,7 +5,7 @@ export default function Terpopuler(){
             <div className="flex flex-wrap">
                 <div className="w-1/3">
                     <div className="container">
-                        <Image className="w-max" src="/images/j-pict-1.jpg" alt="Foto 1"/>
+                        <Image width={'100%'} height={'100%'} className="w-max" src="/images/j-pict-1.jpg" alt="Foto 1"/>
                     </div>
                 </div>
                 <div className="w-2/3">

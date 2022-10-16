@@ -24,7 +24,7 @@ export default function Artikel() {
                 </div>
                 <div className="w-2/5 ml-auto">
                     <div className="container ">
-                        <Image className="w-full" src="/images/i-pict-22.png" alt="Foto 22"/>
+                        <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-22.png" alt="Foto 22"/>
                     </div>            
                 </div>
 

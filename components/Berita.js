@@ -6,7 +6,7 @@ export default function Berita() {
             <h1 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                 PASAR
             </h1>
-            <Image className="w-full" src="/images/i-pict-8.png" alt="Foto 8"/>
+            <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-8.png" alt="Foto 8"/>
             <p className="font-medium text-md pt-3 pb-3">
                 Bentoel Delisting Dari Bursa Akhir 2022. Ini Kinerjanya
             </p>
@@ -23,7 +23,7 @@ export default function Berita() {
             <h1 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                 FINANSIAL
             </h1>
-            <Image className="w-full" src="/images/i-pict-9.png" alt="Foto 9"/>
+            <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-9.png" alt="Foto 9"/>
             <p className="font-medium text-md pt-3 pb-3">
                 Untung Kian Berlipat. BCA Optimis Naikan Target
             </p>
@@ -40,7 +40,7 @@ export default function Berita() {
             <h1 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                 DATA & ANALISIS
             </h1>
-            <Image className="w-full" src="/images/i-pict-10.png" alt="Foto 10"/>
+            <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-10.png" alt="Foto 10"/>
             <p className="font-medium text-md pt-3 pb-3">
                 Tabel Data Saham dan Pasar Uang edisi 28 Juli 2022
             </p>
@@ -57,7 +57,7 @@ export default function Berita() {
             <h1 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                 EKONOMI
             </h1>
-            <Image className="w-full" src="/images/i-pict-11.png" alt="Foto 11"/>
+            <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-11.png" alt="Foto 11"/>
             <p className="font-medium text-md pt-3 pb-3">
                 Sikap The Fed dan IMF jadi Sinyal Beruntun Resesi Global
             </p>
@@ -74,7 +74,7 @@ export default function Berita() {
             <h1 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                 INDUSTRI
             </h1>
-            <Image className="w-full" src="/images/i-pict-12.png" alt="Foto 12"/>
+            <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-12.png" alt="Foto 12"/>
             <p className="font-medium text-md pt-3 pb-3">
                 Siasat MAB Membuat Bus Listrik Otonom Metropod
             </p>
@@ -91,7 +91,7 @@ export default function Berita() {
             <h1 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                 ENTREPRENEURSHIP
             </h1>
-            <Image className="w-full" src="/images/i-pict-13.png" alt="Foto 13"/>
+            <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-13.png" alt="Foto 13"/>
             <p className="font-medium text-md pt-3 pb-3">
                 Budidaya Lebah Jawa Apis Cerana di Boyolali
             </p>
@@ -109,7 +109,7 @@ export default function Berita() {
             <h1 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                 VARIA
             </h1>
-            <Image className="w-full" src="/images/i-pict-14.png" alt="Foto 14"/>
+            <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-14.png" alt="Foto 14"/>
             <p className="font-medium text-md pt-3 pb-3">
                 Jokowi Bertemu PM Jepang Kishida Fumio
             </p>
@@ -126,7 +126,7 @@ export default function Berita() {
             <h1 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                 EKONOMI
             </h1>
-            <Image className="w-full" src="/images/i-pict-15.png" alt="Foto 15"/>
+            <Image width={'100%'} height={'100%'} className="w-full" src="/images/i-pict-15.png" alt="Foto 15"/>
             <p className="font-medium text-md pt-3 pb-3">
                 Citayam Fashion Week Didaftarkan HKI 2 Pihak. Warganet Meradang
             </p>

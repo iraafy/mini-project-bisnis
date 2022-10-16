@@ -46,7 +46,7 @@ export default function Home() {
         <div className="border-b-2 border-black dark:border-white"/>
       </div>
       <div className="mx-20 flex flex-wrap justify-center py-10">
-        <Image src="images/iklan1.png" alt="iklan" width={'750px'}/>
+        <Image width={'80%'} height={'100%'} src="images/iklan1.png" alt="iklan"/>
       </div>
       <Isi />
       <div className="container pt-7 mx-auto w-full lg:w-5/6">
@@ -64,7 +64,7 @@ export default function Home() {
       <div className="container mx-auto px-5 lg:px-20">
       < Terpopuler/>
         <div className="mx-8 flex flex-wrap justify-center py-10">
-          <Image src="images/j-pict-2.jpg" alt="iklan" width={'1050px'}/>
+          <Image width={'100%'} height={'100%'} src="images/j-pict-2.jpg" alt="iklan"/>
         </div>
         
         <h2 className="text-blue-700 pt-8 font-bold text-2xl">
@@ -80,7 +80,7 @@ export default function Home() {
             <div className="border-b-2 border-indigo-500 dark:border-white"/>
         </div>
         <div className="mx-8 flex flex-wrap justify-center py-8 pb-3">
-          <Image src="images/j-pict-8.jpeg" alt="iklan" width={'1050px'}/>
+          <Image width={'100%'} height={'100%'} src="images/j-pict-8.jpeg" alt="iklan"/>
         </div>
 
         <h2 className="text-blue-700 pt-8 font-bold text-2xl">

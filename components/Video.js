@@ -3,7 +3,7 @@ export default function Video(){
     return(
         <div className="p-0  m-0px-8 py-8 grid sm:grid-cols-1 lg:grid-cols-4 gap-5">
             <div className="container">
-                <Image className="w-full" src="/images/j-pict-9.jpeg" alt="Foto 9"/>
+                <Image width={'100%'} height={'100%'} className="w-full" src="/images/j-pict-9.jpeg" alt="Foto 9"/>
                 <h1 className="text-blue-700 font-bold pt-4 text-xl">
                     VARIA
                 </h1>
@@ -15,7 +15,7 @@ export default function Video(){
                 </p>
             </div>
             <div className="container">
-                <Image className="w-full" src="/images/j-pict-10.jpeg" alt="Foto 9"/>
+                <Image width={'100%'} height={'100%'} className="w-full" src="/images/j-pict-10.jpeg" alt="Foto 9"/>
                 <h1 className="text-blue-700 font-bold pt-4 text-xl">
                     VARIA
                 </h1>
@@ -27,7 +27,7 @@ export default function Video(){
                 </p>
             </div>
             <div className="container">
-                <Image className="w-full" src="/images/j-pict-11.jpeg" alt="Foto 9"/>
+                <Image width={'100%'} height={'100%'} className="w-full" src="/images/j-pict-11.jpeg" alt="Foto 9"/>
                 <h1 className="text-blue-700 font-bold pt-4 text-xl">
                     VARIA
                 </h1>
@@ -39,7 +39,7 @@ export default function Video(){
                 </p>
             </div>
             <div className="container">
-                <Image className="w-full" src="/images/j-pict-9.jpeg" alt="Foto 9"/>
+                <Image width={'100%'} height={'100%'} className="w-full" src="/images/j-pict-9.jpeg" alt="Foto 9"/>
                 <h1 className="text-blue-700 font-bold pt-4 text-xl">
                     VARIA
                 </h1>

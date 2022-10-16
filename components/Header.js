@@ -30,7 +30,7 @@ export default function Header() {
                 </div>
                 <div className="w-full lg:w-1/3">
                     <div className="container justify-center p-4 bg-white">
-                        <Image src="images/logo.png" alt="logo" width={'250px'} className="h-full w-full"/>
+                        <Image width={'150px'} height={'100%'} src="images/logo.png" alt="logo" className="h-full w-full"/>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/3">

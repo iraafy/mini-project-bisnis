@@ -6,7 +6,7 @@ export default function Footer() {
         <div className=" flex flex-wrap">
             <div className="w-1/2 bg-white">
                 <div className="container py-5">
-                    <Image src="images/logo.png" alt="logo" width={'150px'}/>
+                    <Image width={'150px'} height={'100%'} src="images/logo.png" alt="logo"/>
                 </div>
             </div>
             <div className="w-1/2 bg-white">
@@ -176,12 +176,12 @@ export default function Footer() {
                             <div className=" flex flex-wrap gap-2">
                                 <div className="w-1/3">
                                     <a href='#'>
-                                        <Image className="w-full" src="/images/gplay.png" alt="gplay"/>
+                                        <Image width={'100%'} height={'100%'} className="w-full" src="/images/gplay.png" alt="gplay"/>
                                     </a>
                                 </div>
                                 <div className="w-1/3">
                                     <a href='#'>
-                                        <Image className="w-full" src="/images/appstr.png" alt="appstr" />
+                                        <Image width={'100%'} height={'100%'} className="w-full" src="/images/appstr.png" alt="appstr" />
                                     </a>
                                 </div>
                             </div>
