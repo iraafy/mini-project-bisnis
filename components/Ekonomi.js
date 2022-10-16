@@ -3,7 +3,7 @@ export default function Ekonomi() {
     <>
         <div className="container mx-auto w-full lg:w-5/6">
             <div className="flex flex-wrap">
-                <div className="w-6/12  container pr-10 border-r-4 border-blue-900">
+                <div className="w-6/12  container pr-10 border-r-2 border-blue-900 border-dotted">
                     <h1 className="text-blue-700 font-bold text-xl">
                         EKONOMI
                     </h1>

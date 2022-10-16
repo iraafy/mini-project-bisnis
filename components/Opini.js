@@ -20,12 +20,47 @@ export default function Opini(){
                         <img className="w-small" src="/images/j-pict-mini.png" alt="Foto mini"/>
                     </div>
                     <div className="container">
-                        <p className="text-sm pt-5 pl-2 px-0">
+                        <p className="text-sm pt-5 px-0">
                             28 Juli 2022 | Lim Hedaksi
                         </p>
                     </div>
                 </div>
-                
+            </div>
+            <div className="container">
+                <div className="flex flex-wrap">
+                    <div className="w-1/2 border-r-2 border-dotted border-blue-900 p-3">
+                        <div className="border-b-2 border-blue-700">
+                            <h1 className="font-bold text-md">
+                                OPINI: Menjaga Denyut Ekonomi Stabil
+                            </h1>
+                            <p className="text-xs pt-4 pb-4">
+                                28 Juli 2022 | Lim Hedaksi
+                            </p>
+                        </div>
+                        <h1 className="font-bold text-md pt-4">
+                            SPEKTRUM: Mengembalikan CFW Keasalnya
+                        </h1>
+                        <p className="text-xs pt-5 px-0">
+                            27 Juli 2022 | Lim Hedaksi
+                        </p>
+                    </div>
+                    <div className="w-1/2 p-3">
+                        <div className="border-b-2 border-blue-700">
+                            <h1 className="font-bold text-md">
+                                OPINI: Menjaga Denyut Ekonomi Stabil
+                            </h1>
+                            <p className="text-xs pt-4 pb-4">
+                                28 Juli 2022 | Lim Hedaksi
+                            </p>
+                        </div>
+                        <h1 className="font-bold text-md pt-4">
+                            SPEKTRUM: Mengembalikan CFW Keasalnya
+                        </h1>
+                        <p className="text-xs pt-5 px-0">
+                            27 Juli 2022 | Lim Hedaksi
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     )
