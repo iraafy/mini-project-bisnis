@@ -8,7 +8,7 @@ export default function Opini(){
                 <h2 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                     OPINI
                 </h2>
-                <h1 className="text-black font-bold pt-2 pb-2 text-3xl">
+                <h1 className=" font-bold pt-2 pb-2 text-3xl">
                     EDITORIAL: Alarm Resesi Global
                 </h1>
                 <p className="text-gray-400 text-m">

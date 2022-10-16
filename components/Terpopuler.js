@@ -22,7 +22,7 @@ export default function Terpopuler(){
                             </div>
                             <div className="w-65">
                                 <div className="container text-left">
-                                    <h2 className="text-black font-bold pr-2 text-lg">
+                                    <h2 className=" font-bold pr-2 text-lg">
                                         Sumatra Mandiri Pangan, Solusi <br/> Kolektif Amankan Pasokan
                                     </h2>
                                     <p className="text-sm pt-5">

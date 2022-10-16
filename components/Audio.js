@@ -8,7 +8,7 @@ export default function Audio(){
                 <h1 className="text-black font-bold pt-2 pb-2 text-xl">
                     Imbas Kasus ACT, Lembaga FiLantropi Masih Bisa Dipercaya?
                 </h1><br></br><br></br>
-                <p className="text-sm pt-2">
+                <p className="text-black text-sm pt-2">
                     27 Juli 2022 | David Eka
                 </p>
             </div>
@@ -19,7 +19,7 @@ export default function Audio(){
                 <h1 className="text-black font-bold pt-2 pb-2 text-xl">
                     Badai PHK Startup, 'Winter is Coming' Kini Jadi Kenyataan
                 </h1><br></br><br></br>
-                <p className="text-sm pt-2">
+                <p className=" text-black text-sm pt-2">
                     7 Juni 2022 | David Eka
                 </p>
             </div>
@@ -30,7 +30,7 @@ export default function Audio(){
                 <h1 className="text-black font-bold pt-2 pb-2 text-xl">
                     #12 Pandemi Buat Target Bauran EBT Tahun Lalu Tidak Tercapai?
                 </h1><br></br><br></br>
-                <p className="text-sm pt-2">
+                <p className="text-black text-sm pt-2">
                     9 Maret 2022 | David Eka
                 </p>
             </div>

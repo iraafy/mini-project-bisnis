@@ -4,12 +4,12 @@ export default function Footer() {
   return (
     <div className="container mx-auto w-full">
         <div className=" flex flex-wrap">
-            <div className="w-1/2">
+            <div className="w-1/2 bg-white">
                 <div className="container py-5">
                     <img src="images/logo.png" alt="logo" width={'150px'}/>
                 </div>
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 bg-white">
                 <div className="container py-5 text-right">
                     <iconify-icon inline icon="entypo-social:facebook-with-circle" style={{color: 'black', fontSize: '30px', marginRight: '15px'}}/>
                     <iconify-icon inline icon="entypo-social:linkedin-with-circle" style={{color: 'black', fontSize: '30px', marginRight: '15px'}}/>

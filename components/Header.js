@@ -12,9 +12,9 @@ export default function Header() {
     return (
     <>
         <div className="container mx-auto w-full lg:w-5/6">
-            <div className="container flex flex-wrap">
-                <div className="w-full lg:w-1/3">
-                    <div className="flex flex-wrap">
+            <div className="container flex flex-wrap bg-white text-black">
+                <div className="lg:w-1/3">
+                    <div className="flex">
                         <div className="w-1/5">
                             <div className="container p-4 bg-white">
                                 <iconify-icon inline icon="ci:menu-duo" style={{fontSize: '30px', paddingTop: '2%'}}/>&emsp;
@@ -28,26 +28,26 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/3">
-                    <div className="container mx-auto justify-center p-4 bg-white">
-                        <img src="images/logo.png" alt="logo" width={'250px'}/>
+                    <div className="container justify-center p-4 bg-white">
+                        <img src="images/logo.png" alt="logo" width={'250px'} className="h-full w-full"/>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/3">
-                    <div className="container flex flex-wrap">
+                    <div className="container flex">
                         <div className="w-1/6">
-                            <div className="container p-4 bg-white">
+                            <div className="container pt-4 bg-white pl-24">
                                 <iconify-icon inline icon="bytesize:search" style={{fontSize: '20px', paddingTop: '10px'}}/>&emsp;
                             </div>
                         </div>
                         <div className="w-4/6">
-                            <div className="container p-4 bg-white">
+                            <div className="container pt-4 pr-5 bg-white">
                                <button className="border-2 border-blue-700 p-2 pl-3 pr-3 rounded text-sm" style={{float: 'right'}}>
                                     Berlangganan
                                </button>
                             </div>
                         </div>
                         <div className="w-1/6">
-                            <div className="container p-4 bg-white text-right">
+                            <div className="container pr-4 pt-5 bg-white text-right">
                                 <a>
                                     <b>
                                         Login

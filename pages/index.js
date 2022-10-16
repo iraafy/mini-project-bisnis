@@ -105,8 +105,8 @@ export default function Home() {
         </h2>
         < Berita/>
         <div className="container mx-auto w-full lg:w-5/6">
-          <div className="w-full border-b-4 border-black mb-2"/>
-          <div className="w-full border-b-2 border-black"/>
+          <div className="w-full border-b-4 border-black dark:border-white mb-2"/>
+          <div className="w-full border-b-2 border-black dark:border-white"/>
           < Footer/>
         </div>
       </div>

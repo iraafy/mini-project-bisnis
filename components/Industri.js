@@ -6,7 +6,7 @@ export default function Industri(){
                 <h2 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                     INDUSTRI
                 </h2>
-                <h1 className="text-black font-bold pt-2 pb-2 text-2xl">
+                <h1 className=" font-bold pt-2 pb-2 text-2xl">
                     Siasat MAB Membuat Bus Listrik Otonom Metropod
                 </h1>
                 <p className="text-sm pt-2">
@@ -17,7 +17,7 @@ export default function Industri(){
                 <h2 className="text-blue-700 font-bold pt-2 pb-2 text-lg">
                     INDUSTRI
                 </h2>
-                <h1 className="text-black font-bold pt-2 pb-2 text-3xl">
+                <h1 className=" font-bold pt-2 pb-2 text-3xl">
                     Top 5 BisnisIndonesia.Id: Blok Masela Hingga Kereta Cepat
                 </h1><br></br>
                 <p className="text-gray-400 text-m">
@@ -36,7 +36,7 @@ export default function Industri(){
                     <h1 className="text-blue-500 font-bold pt-0 pb-1 text-lg">
                         INDUSTRI
                     </h1>            
-                    <h2 className="text-black font-bold text-sm">
+                    <h2 className=" font-bold text-sm">
                         Didesak china, RI Pikul Beban Biaya Proyek Kereta Cepat.
                     </h2>
                     <p className="text-sm pt-2">
@@ -51,7 +51,7 @@ export default function Industri(){
                     <h1 className="text-blue-500 font-bold pt-0 pb-1 text-lg">
                         INDUSTRI
                     </h1>            
-                    <h2 className="text-black font-bold text-sm px-0 mx-0">
+                    <h2 className=" font-bold text-sm px-0 mx-0">
                         Didesak china, RI Pikul Beban Biaya Proyek Kereta Cepat.
                     </h2>
                     <p className="text-sm pt-2">
@@ -66,7 +66,7 @@ export default function Industri(){
                     <h1 className="text-blue-500 font-bold pt-0 pb-1 text-lg">
                         INDUSTRI
                     </h1>            
-                    <h2 className="text-black font-bold text-sm">
+                    <h2 className=" font-bold text-sm">
                         Didesak china, RI Pikul Beban Biaya Proyek Kereta Cepat.
                     </h2>
                     <p className="text-sm pt-2">
