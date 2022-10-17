@@ -6,7 +6,7 @@ export default function Footer() {
         <div className=" flex flex-wrap">
             <div className="w-1/2 bg-white">
                 <div className="container py-5">
-                    <Image width={'150px'} height={'100%'} src="images/logo.png" alt="logo"/>
+                    <Image width={'150'} height={'30'} src="images/logo.png" alt="logo"/>
                 </div>
             </div>
             <div className="w-1/2 bg-white">
@@ -52,7 +52,7 @@ export default function Footer() {
                     </div>
                     <div className="w-full border-b-2 border-blue-900"/>
 
-                    <div className="py-4 grid sm:grid-cols-1 lg:grid-cols-4 ">
+                    <div className="py-4 grid grid-cols-2 lg:grid-cols-4 ">
                         <div className="container">
                             <h1 className="text-blue-700 font-bold pt-4 pb-4 text-md">
                                 EKONOMI
@@ -176,12 +176,12 @@ export default function Footer() {
                             <div className=" flex flex-wrap gap-2">
                                 <div className="w-1/3">
                                     <a href='#'>
-                                        <Image width={'100%'} height={'100%'} className="w-full" src="/images/gplay.png" alt="gplay"/>
+                                        <Image width={'150'} height={'40'} className="w-full" src="/images/gplay.png" alt="gplay"/>
                                     </a>
                                 </div>
                                 <div className="w-1/3">
                                     <a href='#'>
-                                        <Image width={'100%'} height={'100%'} className="w-full" src="/images/appstr.png" alt="appstr" />
+                                        <Image width={'150'} height={'40'} className="w-full" src="/images/appstr.png" alt="appstr" />
                                     </a>
                                 </div>
                             </div>

@@ -6,7 +6,7 @@ export default function Header() {
     const d = `${current.getDay()}`;
     const day = dayNames[d];
     const date = `${current.getDate()}`;
-    const m =  `${current.getMonth()+1}`;
+    const m =  `${current.getMonth()}`;
     const month = monthNames[m];
     const year = `${current.getFullYear()}`;
     const dates = `${day} - ${date} ${month} ${year}`;
@@ -14,7 +14,7 @@ export default function Header() {
     <>
         <div className="container mx-auto w-full lg:w-5/6">
             <div className="container flex flex-wrap bg-white text-black">
-                <div className="lg:w-1/3">
+                <div className="w-full lg:w-1/3  border-2 border-red-600">
                     <div className="flex">
                         <div className="w-1/5">
                             <div className="container p-4 bg-white">
@@ -22,18 +22,18 @@ export default function Header() {
                             </div>
                         </div>
                         <div className="w-4/5">
-                            <div className="container p-5 bg-white text0sm">
+                            <div className="container p-5 text-sm">
                                 {dates}
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/3">
-                    <div className="container justify-center p-4 bg-white">
-                        <Image width={'150px'} height={'100%'} src="images/logo.png" alt="logo" className="h-full w-full"/>
+                <div className="w-full lg:w-1/3 border-2 border-red-600">
+                    <div className="container p-4">
+                        <Image width={'200'} height={'40'} className="" src="images/logo.png" alt="logo"/>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/3">
+                <div className="w-full lg:w-1/3  border-2 border-red-600">
                     <div className="container flex">
                         <div className="w-1/6">
                             <div className="container pt-4 bg-white pl-24">
@@ -62,7 +62,7 @@ export default function Header() {
             <div className="bg-black text-white dark:bg-gray-500 dark:text-white text-md">
                 <marquee>Lorem ipsum dolor sit amet</marquee>
             </div>
-            <div className="container mx-auto py-3">
+            <div className="container mx-auto py-3 hidden lg:inline">
                 <div className="flex flex-wrap justify-between text-sm px-8">
                     <div className="w-full lg:w-fit">
                         <a href="#" className="font-bold text-l">UTAMA</a> 
