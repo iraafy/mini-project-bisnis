@@ -24,7 +24,7 @@ export default function Home() {
 		<>
 			<div className="bg-blue-900 h-20">
 				<div className="container mx-auto w-full lg:w-5/6">
-					<div className="mx-20 flex flex-wrap">
+					<div className="flex flex-wrap">
 						<div className="text-white text-xl p-3 text-right">
 							<div className="relative inline-block w-10 mr-2 align-middle select-noneml-20 mt-5 my-5">
 							<input type="checkbox" className="checked:bg-white outline-none focus:outline-none right-4 checked:right-0 duration-200 ease-in absolute block w-6 h-6 rounded-full bg-gray-500 border-4 appearance-none cursor-pointer" onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}/>
@@ -100,23 +100,43 @@ export default function Home() {
 					< Footer/>
 				</div>
 			</div>
-			<div className="bg-blue-900">
-				<div className="container mx-auto px-5 lg:px-20">
-				<div className="mx-20 flex flex-wrap">
-					<div className="w-1/2 text-white text-xs p-3">
-					<p className="text-white text-xs">
-						© Copyright 2022 - Bisnis Indonesia. All rights reserved.
-					</p>
-					</div>
-					<div className="w-1/2 text-white text-xs p-3 text-right">
-						<a href="#"> Privacy Policy </a> &nbsp;<b>|</b>&nbsp;
-						<a href="#"> Code of Conduct </a> &nbsp;<b>|</b>&nbsp;
-						<a href="#"> About Us </a> &nbsp;<b>|</b>&nbsp;
-						<a href="#"> Contact Us </a> &nbsp;<b>|</b>&nbsp;
-						<a href="#"> Advertise with Us </a>
+			<div className="bg-blue-900 px-5 lg:px-20">
+				<div className="container mx-auto w-full px-5 lg:px-20">
+					<div className=" flex flex-wrap text-white text-xs ">
+						<div className="w-full lg:w-1/2">
+							<div className="container">
+								<p className="text-center lg:text-left p-4">
+									© Copyright 2022 - Bisnis Indonesia. All rights reserved.
+								</p>
+							</div>
+						</div>
+						<div className="w-full lg:w-1/2 hidden lg:inline">
+							<div className="container text-right p-4">
+								<a href="#"> Privacy Policy </a> &nbsp;<b>|</b>&nbsp;
+								<a href="#"> Code of Conduct </a> &nbsp;<b>|</b>&nbsp;
+								<a href="#"> About Us </a> &nbsp;<b>|</b>&nbsp;
+								<a href="#"> Contact Us </a> &nbsp;<b>|</b>&nbsp;
+								<a href="#"> Advertise with Us </a>  
+							</div>
+						</div>
 					</div>
 				</div>
-				</div>
+				{/* <div className="container px-5 lg:px-20">
+					<div className="flex flex-wrap mx-auto">
+						<div className="w-full lg:w-1/2 text-white text-xs p-3">
+							<p className="text-white text-xs text-center lg:text-left">
+								© Copyright 2022 - Bisnis Indonesia. All rights reserved.
+							</p>
+						</div>
+						<div className="hidden lg:inline w-full lg:w-1/2 text-white text-xs p-3 text-right">
+							<a href="#"> Privacy Policy </a> &nbsp;<b>|</b>&nbsp;
+							<a href="#"> Code of Conduct </a> &nbsp;<b>|</b>&nbsp;
+							<a href="#"> About Us </a> &nbsp;<b>|</b>&nbsp;
+							<a href="#"> Contact Us </a> &nbsp;<b>|</b>&nbsp;
+							<a href="#"> Advertise with Us </a>
+						</div>
+					</div>
+				</div> */}
 			</div>
 		</>
 	)
