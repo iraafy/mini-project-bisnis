@@ -108,7 +108,7 @@ export default function Header() {
 				</div>
 			</nav>
 			<div className="w-5/6 lg:w-1/3 mx-auto flex justify-start lg:justify-center dark:hidden inline">
-				<a href="/">
+				<a href="#">
 					<Image width={'180'} height={'25'} src="../images/logo.png" alt="logo"/>
 				</a>
 			</div>
