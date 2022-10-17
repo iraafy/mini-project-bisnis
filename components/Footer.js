@@ -11,10 +11,10 @@ export default function Footer() {
             </div>
             <div className="w-1/2 bg-white">
                 <div className="container py-5 text-right">
-                    <iconify-icon inline icon="entypo-social:facebook-with-circle" style={{color: 'black', fontSize: '30px', marginRight: '15px'}}/>
-                    <iconify-icon inline icon="entypo-social:linkedin-with-circle" style={{color: 'black', fontSize: '30px', marginRight: '15px'}}/>
-                    <iconify-icon inline icon="entypo-social:instagram-with-circle" style={{color: 'black', fontSize: '30px', marginRight: '15px'}}/>
-                    <iconify-icon inline icon="entypo-social:youtube-with-circle" style={{color: 'black', fontSize: '30px'}}/>  
+                    <iconify-icon inline icon="entypo-social:facebook-with-circle" style={{color: 'black', fontSize: '20px', marginRight: '15px'}}/>
+                    <iconify-icon inline icon="entypo-social:linkedin-with-circle" style={{color: 'black', fontSize: '20px', marginRight: '15px'}}/>
+                    <iconify-icon inline icon="entypo-social:instagram-with-circle" style={{color: 'black', fontSize: '20px', marginRight: '15px'}}/>
+                    <iconify-icon inline icon="entypo-social:youtube-with-circle" style={{color: 'black', fontSize: '20px'}}/>  
                 </div>
             </div>
             <div className="w-full border-b-2 border-blue-900 mb-2"/>

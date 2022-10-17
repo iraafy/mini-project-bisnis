@@ -43,10 +43,10 @@ export default function Header() {
 									<iconify-icon inline icon="ci:menu-duo" />&emsp;
 								</div>
 								<div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
-									<div className="container w-full flex flex-wrap p-8">
+									<div className="container w-full flex flex-wrap p-8 text-black">
 										<div className="w-2/3">
 											<div className="top-0 right-0">
-												<Image src='../images/logo.png' width={200} height={30} alt="logo" />
+												<Image src='../images/logo.png' width={220} height={60} alt="logo" />
 											</div>
 										</div>
 										<div className="w-1/3">
@@ -55,7 +55,7 @@ export default function Header() {
 											</div>
 										</div>
 									</div>
-									<div className="container mx-auto w-full">
+									<div className="container mx-auto w-full text-black">
 										<div className="text-sm px-8">
 											{category?.map((cat) => {
 												return (
@@ -94,7 +94,7 @@ export default function Header() {
 												<a href="#" className="text-base">OPINI</a>
 											</div> */}
 
-											<div className="lg:hidden inline">
+											<div className="lg:hidden inline text-black">
 												<div className="container">
 													<div className="w-full">
 														<div className="container pt-2">
@@ -131,9 +131,9 @@ export default function Header() {
 						</div>
 					</div>
 				</nav>
-				<div className="w-5/6 lg:w-1/3 mx-auto flex justify-start lg:justify-center dark:hidden inline">
+				<div className="w-5/6 lg:w-1/3 mx-auto flex justify-start lg:justify-center">
 					<a href="#">
-						<Image width={'180'} height={'25'} src="../images/logo.png" alt="logo" />
+						<Image width={'220'} height={'50'} src="../images/logo.png" alt="logo" />
 					</a>
 				</div>
 				<div className="hidden lg:inline w-1/3">
