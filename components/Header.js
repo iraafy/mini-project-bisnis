@@ -66,34 +66,6 @@ export default function Header() {
 													</>
 												)
 											})}
-											{/* <div className="w-full p-2">
-												<a href="#" className="text-base">PASAR</a>
-											</div>
-											<div className="w-full p-2">
-												<a href="#" className="text-base">FINANSIAL</a>
-											</div>
-											<div className="w-full p-2">
-												<a href="#" className="text-base">DATA & ANALISIS</a>
-											</div>
-											<div className="w-full p-2">
-												<a href="#" className="text-base">EKONOMI</a>
-											</div>
-											<div className="w-full p-2">
-												<a href="#" className="text-base">INDUSTRI</a>
-											</div>
-											<div className="w-full p-2">
-												<a href="#" className="text-base">ENTREPRENEURSHIP</a>
-											</div>
-											<div className="w-full p-2">
-												<a href="#" className="text-base">VARIA</a>
-											</div>
-											<div className="w-full p-2">
-												<a href="#" className="text-base">RILEKS</a>
-											</div>
-											<div className="w-full p-2">
-												<a href="#" className="text-base">OPINI</a>
-											</div> */}
-
 											<div className="lg:hidden inline text-black">
 												<div className="container">
 													<div className="w-full">

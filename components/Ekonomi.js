@@ -1,5 +1,22 @@
-import Image from "next/image"
+import React, { useEffect, useState } from "react"; // import state
+import Image from "next/image";
+import axios from "axios";
+
 export default function Ekonomi() {
+    const [content, setContent] = useState([]);
+	useEffect(() => {
+		getContents()
+	}, [])
+
+	const getContents = async () => {
+		await axios.get('contents?category=Ekonomi&length=3')
+			.then((res) => {
+				setContent(res.data.data)
+			})
+			.catch((err) => {
+				console.log(err.data);
+			})
+	}
     return (
     <>
         <div className="container mx-auto w-full lg:w-5/6">
