@@ -1,4 +1,5 @@
 import Image from "next/image"
+// contents?length=5
 export default function Infografis() {
     return (
       <div className="p-0  m-0px-8 py-8 grid sm:grid-cols-1 lg:grid-cols-4 gap-5">
