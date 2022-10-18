@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react"; // import state
 import Image from "next/image";
 import axios from "axios";
-import Link from "next/link";
 
 export default function Header() {
 	const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
@@ -61,7 +60,7 @@ export default function Header() {
 												return (
 													<>
 														<div className="w-full p-2">
-															<Link key={cat.id_category} href={`/${cat.name_category}`} className="text-base">{cat.name_category}</Link>
+															<p className="text-base">{cat.name_category}</p>
 														</div>
 													</>
 												)
@@ -170,41 +169,11 @@ export default function Header() {
 							return (
 								<>
 									<div className="w-full lg:w-fit">
-										<Link key={cat.id_category} href={`/${cat.name_category}`} className="font-bold text-base">{cat.name_category}</Link>
+										<p className="font-bold text-base">{cat.name_category}</p>
 									</div>
 								</>
 							)
 						})}
-						{/* <div className="w-full lg:w-fit">
-							<a href="#" className="font-bold text-base">UTAMA</a>
-						</div>
-						<div className="w-full lg:w-fit">
-							<a href="#" className="font-bold text-base">PASAR</a>
-						</div>
-						<div className="w-full lg:w-fit">
-							<a href="#" className="font-bold text-base">FINANSIAL</a>
-						</div>
-						<div className="w-full lg:w-fit">
-							<a href="#" className="font-bold text-base">DATA & ANALISIS</a>
-						</div>
-						<div className="w-full lg:w-fit">
-							<a href="#" className="font-bold text-base">EKONOMI</a>
-						</div>
-						<div className="w-full lg:w-fit">
-							<a href="#" className="font-bold text-base">INDUSTRI</a>
-						</div>
-						<div className="w-full lg:w-fit">
-							<a href="#" className="font-bold text-base">ENTREPRENEURSHIP</a>
-						</div>
-						<div className="w-full lg:w-fit">
-							<a href="#" className="font-bold text-base">VARIA</a>
-						</div>
-						<div className="w-full lg:w-fit">
-							<a href="#" className="font-bold text-base">RILEKS</a>
-						</div>
-						<div className="w-full lg:w-fit">
-							<a href="#" className="font-bold text-base">OPINI</a>
-						</div> */}
 					</div>
 				</div>
 			</div>

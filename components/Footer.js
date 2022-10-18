@@ -1,7 +1,132 @@
-import React from 'react'
-import Image from "next/image"
+import React, { useEffect, useState } from "react"; // import state
+import Image from "next/image";
+import axios from "axios";
+
 export default function Footer() {
-  return (
+    const [category1, setCategory1] = useState([]);
+
+	useEffect(() => {
+		getCategories1()
+	}, [])
+
+	const getCategories1 = async () => {
+		await axios.get('https://bisnis-indo-api.herokuapp.com/categories/1')
+			.then((res) => {
+				setCategory1(res.data.data)
+			})
+			.catch((err) => {
+				console.log(err.data);
+			})
+	}
+    const [category2, setCategory2] = useState([]);
+
+	useEffect(() => {
+		getCategories2()
+	}, [])
+
+	const getCategories2 = async () => {
+		await axios.get('https://bisnis-indo-api.herokuapp.com/categories/2')
+			.then((res) => {
+				setCategory2(res.data.data)
+			})
+			.catch((err) => {
+				console.log(err.data);
+			})
+	}
+    const [category3, setCategory3] = useState([]);
+
+	useEffect(() => {
+		getCategories3()
+	}, [])
+
+	const getCategories3 = async () => {
+		await axios.get('https://bisnis-indo-api.herokuapp.com/categories/3')
+			.then((res) => {
+				setCategory3(res.data.data)
+			})
+			.catch((err) => {
+				console.log(err.data);
+			})
+	}
+    const [category4, setCategory4] = useState([]);
+
+	useEffect(() => {
+		getCategories4()
+	}, [])
+
+	const getCategories4 = async () => {
+		await axios.get('https://bisnis-indo-api.herokuapp.com/categories/4')
+			.then((res) => {
+				setCategory4(res.data.data)
+			})
+			.catch((err) => {
+				console.log(err.data);
+			})
+	}
+    const [category5, setCategory5] = useState([]);
+
+	useEffect(() => {
+		getCategories5()
+	}, [])
+
+	const getCategories5 = async () => {
+		await axios.get('https://bisnis-indo-api.herokuapp.com/categories/5')
+			.then((res) => {
+				setCategory5(res.data.data)
+			})
+			.catch((err) => {
+				console.log(err.data);
+			})
+	}
+    const [category6, setCategory6] = useState([]);
+
+	useEffect(() => {
+		getCategories6()
+	}, [])
+
+	const getCategories6 = async () => {
+		await axios.get('https://bisnis-indo-api.herokuapp.com/categories/6')
+			.then((res) => {
+				setCategory6(res.data.data)
+			})
+			.catch((err) => {
+				console.log(err.data);
+			})
+	}
+    const [category7, setCategory7] = useState([]);
+
+	useEffect(() => {
+		getCategories7()
+	}, [])
+
+	const getCategories7 = async () => {
+		await axios.get('https://bisnis-indo-api.herokuapp.com/categories/7')
+			.then((res) => {
+				setCategory7(res.data.data)
+			})
+			.catch((err) => {
+				console.log(err.data);
+			})
+	}
+    const [category, setCategory] = useState([]);
+
+	useEffect(() => {
+		getCategories()
+	}, [])
+
+	const getCategories = async () => {
+		await axios.get('https://bisnis-indo-api.herokuapp.com/subcategories?id=1')
+			.then((res) => {
+				setCategory(res.data.data)
+			})
+			.catch((err) => {
+				console.log(err.data);
+			})
+	}
+
+    
+
+	return (
     <div className="container mx-auto w-full">
         <div className=" flex flex-wrap">
             <div className="w-1/2 bg-white">
@@ -11,10 +136,10 @@ export default function Footer() {
             </div>
             <div className="w-1/2 bg-white">
                 <div className="container py-5 text-right">
-                    <iconify-icon inline icon="entypo-social:facebook-with-circle" style={{color: 'black', fontSize: '20px', marginRight: '15px'}}/>
-                    <iconify-icon inline icon="entypo-social:linkedin-with-circle" style={{color: 'black', fontSize: '20px', marginRight: '15px'}}/>
-                    <iconify-icon inline icon="entypo-social:instagram-with-circle" style={{color: 'black', fontSize: '20px', marginRight: '15px'}}/>
-                    <iconify-icon inline icon="entypo-social:youtube-with-circle" style={{color: 'black', fontSize: '20px'}}/>  
+                    <iconify-icon inline icon="entypo-social:facebook-with-circle" style={{color: 'black', fontSize: '25px', marginRight: '15px'}}/>
+                    <iconify-icon inline icon="entypo-social:linkedin-with-circle" style={{color: 'black', fontSize: '25px', marginRight: '15px'}}/>
+                    <iconify-icon inline icon="entypo-social:instagram-with-circle" style={{color: 'black', fontSize: '25px', marginRight: '15px'}}/>
+                    <iconify-icon inline icon="entypo-social:youtube-with-circle" style={{color: 'black', fontSize: '25px'}}/>  
                 </div>
             </div>
             <div className="w-full border-b-2 border-blue-900 mb-2"/>
@@ -55,119 +180,101 @@ export default function Footer() {
                     <div className="py-4 grid grid-cols-2 lg:grid-cols-4 ">
                         <div className="container">
                             <h1 className="text-blue-700 font-bold pt-4 pb-4 text-md">
-                                EKONOMI
+                                Pasar
                             </h1>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>APBN</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Pajak</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Fiskal/Moneter</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Ekonomi Global</a>
-                            </div>
+                            {category1?.map((cat1) => {
+                                return (
+                                    <>
+                                        <div className='mb-3 text-sm'>
+                                            <a href='#'>{cat1.name_subcategory}</a>
+                                        </div>
+                                    </>
+                                )
+                            })}
                         </div> 
                         <div className="container">
                             <h1 className="text-blue-700 font-bold pt-4 pb-4 text-md">
-                                PASAR
+                                Finansial
                             </h1>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Portfolio</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Korporasi</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Komoditas</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Nilai Tukar</a>
-                            </div>
+                            {category2?.map((cat2) => {
+                                return (
+                                    <>
+                                        <div className='mb-3 text-sm'>
+                                            <a href='#'>{cat2.name_subcategory}</a>
+                                        </div>
+                                    </>
+                                )
+                            })}
                         </div> 
                         <div className="container">
                             <h1 className="text-blue-700 font-bold pt-4 pb-4 text-md">
-                                DATA & ANALISIS
+                                Data & Analisis
                             </h1>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Manufaktur</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Rintisan</a>
-                            </div>
+                            {category3?.map((cat3) => {
+                                return (
+                                    <>
+                                        <div className='mb-3 text-sm'>
+                                            <a href='#'>{cat3.name_subcategory}</a>
+                                        </div>
+                                    </>
+                                )
+                            })}
                         </div> 
                         <div className="container">
                             <h1 className="text-blue-700 font-bold pt-4 pb-4 text-md">
-                                LAINNYA
+                                Ekonomi
                             </h1>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Varia</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Rileks</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Opini</a>
-                            </div>
+                            {category4?.map((cat4) => {
+                                return (
+                                    <>
+                                        <div className='mb-4 text-sm'>
+                                            <a href='#'>{cat4.name_subcategory}</a>
+                                        </div>
+                                    </>
+                                )
+                            })}
                         </div> 
                         <div className="container">
                             <h1 className="text-blue-700 font-bold pt-4 pb-4 text-md">
-                                ENTREPRENEURSHIP
+                                Industri
                             </h1>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Peluang Bisnis</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Tips Bisnis</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Manajemen</a>
-                            </div>
+                            {category5?.map((cat5) => {
+                                return (
+                                    <>
+                                        <div className='mb-5 text-sm'>
+                                            <a href='#'>{cat5.name_subcategory}</a>
+                                        </div>
+                                    </>
+                                )
+                            })}
                         </div> 
                         <div className="container">
                             <h1 className="text-blue-700 font-bold pt-4 pb-4 text-md">
-                                FINANSIAL
+                                Entrpreneurship
                             </h1>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Syariah</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Asuransi</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Perbankan</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Pembiayaan</a>
-                            </div>
+                            {category6?.map((cat6) => {
+                                return (
+                                    <>
+                                        <div className='mb-6 text-sm'>
+                                            <a href='#'>{cat6.name_subcategory}</a>
+                                        </div>
+                                    </>
+                                )
+                            })}
                         </div> 
                         <div className="container">
                             <h1 className="text-blue-700 font-bold pt-4 pb-4 text-md">
-                                INDUSTRI
+                                Varia
                             </h1>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Manufaktur</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Rintisan</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Niaga dan Jasa</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Teknologi / IT</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Energi</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Infrastruktur</a>
-                            </div>
-                            <div className='mb-3 text-sm'>
-                                <a href='#'>Properti</a>
-                            </div>
+                            {category7?.map((cat7) => {
+                                return (
+                                    <>
+                                        <div className='mb-7 text-sm'>
+                                            <a href='#'>{cat7.name_subcategory}</a>
+                                        </div>
+                                    </>
+                                )
+                            })}
                         </div> 
                         <div className="container">
                             <h1 className="text-blue-700 font-bold pt-4 pb-4 text-md">
