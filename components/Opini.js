@@ -75,7 +75,7 @@ export default function Opini(){
                                     </h1>
                                 </div>
                                 <div className="container">
-                                    <img className="w-full pl-2" src="/images/j-pict-mini-4.jpeg" alt="Foto mini"/>
+                                    <Image width={'50'} height={'50'} className="w-small pl-2" src="/images/j-pict-mini-4.jpeg" alt="Foto mini"/>
                                 </div>
                             </div>
                             <p className="text-sm pt-5 pb-4">
@@ -84,14 +84,14 @@ export default function Opini(){
                         </div>
                     <div className="w-1/2 p-3">
                         <div className="border-b-2 border-blue-700">
-                            <div className="m-0 px-0 pt-0 py-2 grid sm:grid-flow-col-dense">
+                            <div className="m-0 px-0 pt-0 py-4 grid sm:grid-flow-col-dense">
                                 <div className="container">
                                     <h1 className="font-bold text-xs">
                                         EDITORIAL: Melirik Kembali Investasi Negeri Samurai
                                     </h1>
                                 </div>
                                 <div className="container">
-                                    <img className="w-full pl-2" src="/images/j-pict-mini-4.jpeg" alt="Foto mini"/>
+                                    <Image width={'50'} height={'50'} className="w-small pl-2" src="/images/j-pict-mini-4.jpeg" alt="Foto mini"/>
                                 </div>
                             </div>
                             <p className="text-sm pt-2 pb-4">
@@ -105,7 +105,7 @@ export default function Opini(){
                                 </h1>
                             </div>
                             <div className="container">
-                                <img className="w-full pl-2" src="/images/j-pict-mini-5.jpeg" alt="Foto mini"/>
+                                <Image width={'50'} height={'50'} className="w-small pl-2" src="/images/j-pict-mini-5.jpeg" alt="Foto mini"/>
                             </div>
                         </div>
                         <p className="text-sm pt-5 pb-4">
