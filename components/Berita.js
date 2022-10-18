@@ -101,7 +101,7 @@ export default function Berita() {
 				console.log(err.data);
 			})
 	}
-	const [entrepreneurship, setEntrepreneurship] = useState([]);
+	const [entrepreneurship, setEntrpreneurship] = useState([]);
 	useEffect(() => {
 		getEntrepreneurship()
 	}, [])
@@ -109,7 +109,7 @@ export default function Berita() {
 	const getEntrepreneurship = async () => {
 		await axios.get('https://bisnis-indo-api.herokuapp.com/contents?category=Entrpreneurship&length=3')
 			.then((res) => {
-				setOpini(res.data.data)
+				setEntrpreneurship(res.data.data)
 			})
 			.catch((err) => {
 				console.log(err.data);

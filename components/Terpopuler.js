@@ -1,5 +1,24 @@
-import Image from "next/image"
+import React, { useEffect, useState } from "react"; // import state
+import Image from "next/image";
+import axios from "axios";
+
 export default function Terpopuler(){
+    const [content, setContent] = useState([]);
+
+	useEffect(() => {
+		getCategories()
+	}, [])
+
+	const getCategories = async () => {
+		await axios.get('https://bisnis-indo-api.herokuapp.com/contents?length=1')
+			.then((res) => {
+				setContent(res.data.data)
+			})
+			.catch((err) => {
+				console.log(err.data);
+			})
+	}
+
     return(
         <div className="m-0 px-2 py-2 p-5">
             <div className="flex flex-wrap">
@@ -23,12 +42,18 @@ export default function Terpopuler(){
                             </div>
                             <div className="w-80">
                                 <div className="container text-left">
-                                    <h2 className=" font-bold pr-2 text-md lg:text-xl">
-                                        Sumatra Mandiri Pangan, Solusi Kolektif Amankan Pasokan
-                                    </h2>
-                                    <p className="text-sm pt-4">
-                                        22 Juli 2022 | Rustam agus
-                                    </p>
+                                {content?.map((cont) => {
+                                    return (
+                                        <>
+                                            <h2 className=" font-bold pr-2 text-md lg:text-xl line-clamp-2">
+                                                {cont.summary}
+                                            </h2>
+                                            <p className="text-sm pt-4">
+                                                {cont.created_at} | {cont.author}
+                                            </p>
+                                        </>
+                                    )
+                                })}
                                 </div>
                             </div>
                         </div>
